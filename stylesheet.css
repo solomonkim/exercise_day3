@@ -1,0 +1,31 @@
+body {
+	font-family: arial;
+	background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDWACxCF4B9EIaAW1jnUUVeC5TUTIIFdDK0hQ-dw6ICaootU4nnw) top right no-repeat;
+	background-size: 75px;
+}
+h1 {
+	color: #F06;
+	text-decoration: underline;
+	font-size: 18px;
+}
+h2 {
+	color: #06F;
+	font-size: 16px;
+}
+h1, h2 {
+	font-weight: normal;
+}
+li {
+	background-color: lightgray;
+	font-size: 12px;
+}
+ol {
+	list-style-position: inside;
+	list-style-type: upper-roman;
+}
+ul {
+	list-style-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDWACxCF4B9EIaAW1jnUUVeC5TUTIIFdDK0hQ-dw6ICaootU4nnw);
+}
+#mostimportant {
+	background-color: yellow;
+}

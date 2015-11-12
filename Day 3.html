@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day 3</title>
+</head>
+<body>
+	<form action="http://www.google.com/" target="_blank" method="get">
+		<input type="text" size="40" maxlength="20" name="q" value="Response Here"/>
+		<input type="text" size="40" maxlength="20" name="q" value="This is disabled (no editing or submitted data)" disabled="true"/>
+		<input type="text" size="40" maxlength="20" name="q" value="This is read only (no editing)" readonly="true"/>
+	</form>	
+	<form action="http://www.google.com/" target="_blank" method="get">
+		Age:<br/>
+			<input type="radio"/>0-10<br/>
+			<input type="radio"/>11-20<br/>
+			<input type="radio"/>21-30<br/>
+		Hobbies:<br/>
+			<input type="checkbox" name="myCheckbox" value="Art" />Art<br/>
+			<input type="checkbox" name="myCheckbox" value="Baseball"/>Baseball<br/>
+			<input type="checkbox" name="myCheckbox"/ value="Collecting">Collecting<br/>
+		<input type="reset"/><br/>
+		<input type="hidden"/><br/>
+		<input type="password"/><br/>
+		<input type="submit"/><br/>
+		<input type="image" src="http://i.imgur.com/z4WUADn.jpg"/>
+	</form>
+	<form action="http://www.google.com/" target="_blank" method="get">
+		This is a dropdown:<br/>
+		<select name="character">
+			<option value="Amy Poehler">Leslie Knope</option>
+			<option value="Rashida Jones">Ann Perkins</option>
+			<optgroup label="Main">
+				<option value="Nick Offerman">Ron Swanson</option>
+			</optgroup>
+			<optgroup label="Other">
+				<option value="Aubrey Plaza">April Ludgate</option>
+				<option value="Aziz Ansari">Tom Haverford</option>
+			</optgroup>
+		</select>
+	</form>
+	<form action="http://www.google.com/" target="_blank" method="get">
+		<textarea cols="50" rows="5" name="quotes">"No home is complete without a proper toolbox"
+
+"No one really uses cols and rows anymore"
+
+"Under my tutelage you wil grow from boys to men."
+		</textarea>
+		<input type="submit"/>
+	</form>
+	<form action="http://www.google.com/" target="_blank" method="get">
+		<fieldset>
+			<legend>Gender</legend>
+			Ron Swanson is a...</br>
+			<input type="radio" name="gender" value="male" id="gender_male"/>
+			<label for="gender_male">man.</label>
+			<input type="radio" name="gender" value="female" id="gnder_female"/>
+			<label for="gender_female">female.</label>
+			<input type="reset"/>
+		</fieldset>
+	</form>
+</body>
+</html>
